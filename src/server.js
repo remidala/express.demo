@@ -4,6 +4,20 @@ const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 8080;
 
+
+/*
+ spli into folder
+ Dogs
+    routes
+    controllers
+    model
+
+Users
+    routes
+    controllers
+    model
+*/ 
+
 //app.use(express.static("public"));
 app.use(express.json());
 
